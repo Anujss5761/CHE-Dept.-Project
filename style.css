@@ -2734,144 +2734,73 @@
 
   }
 
-
-  .slider-frame {
-      overflow: hidden;
-      height: 280px;
-      width: 90%;
-      /* margin-left: 360px;
-    margin-top: 20px; */
-      border: 2px solid black;
-  }
-
-  /*---------- SLIDE ANIMATION --------------*/
-
-
-  @keyframes slide_animation {
-      0% {
-          left: 0px;
-      }
-
-      10% {
-          left: 0px;
-      }
-
-      20% {
-          left: 1200px;
-      }
-
-      30% {
-          left: 1200px;
-      }
-
-      40% {
-          left: 2400px;
-      }
-
-      50% {
-          left: 2400px;
-      }
-
-      60% {
-          left: 1200px;
-      }
-
-      70% {
-          left: 1200px;
-      }
-
-      80% {
-          left: 0px;
-      }
-
-      90% {
-          left: 0px;
-      }
-
-      100% {
-          left: 0px;
-      }
-  }
-
-  @-webkit-keyframes slide_animation {
-      0% {
-          left: 0px;
-      }
-
-      10% {
-          left: 0px;
-      }
-
-      20% {
-          left: 1200px;
-      }
-
-      30% {
-          left: 1200px;
-      }
-
-      40% {
-          left: 2400px;
-      }
-
-      50% {
-          left: 2400px;
-      }
-
-      60% {
-          left: 1200px;
-      }
-
-      70% {
-          left: 1200px;
-      }
-
-      80% {
-          left: 0px;
-      }
-
-      90% {
-          left: 0px;
-      }
-
-      100% {
-          left: 0px;
-      }
-  }
-
-  .slide-images {
-      width: 3600px;
-      height: 800px;
-      margin: 0 0 0 -2400px;
-      position: relative;
-      -webkit-animation-name: slide_animation;
-      animation-name: slide_animation;
-      -webkit-animation-duration: 33s;
-      animation-duration: 33s;
-      -webkit-animation-iteration-count: infinite;
-      animation-iteration-count: infinite;
-      -webkit-animation-direction: alternate;
-      animation-direction: alternate;
-      -webkit-animation-play-state: running;
-      animation-play-state: running;
-  }
-
-  .img-container {
-      height: 280px;
-      width: 1200px;
-      position: relative;
-      float: left;
-      border: 2px solid blue;
-  }
-
-  @media screen and (max-width:600px) {
-      .slider-frame {
-          height: 190px;
-          width: 98%;
-          border-radius: 20p;
-      }
-  }
-
-  /* -----------------------Labs----------------------------------- */
-
+  .slider{
+    width: 99%;
+    max-width: 100vw;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.slider .list{
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+}
+.slider .list img{
+    width: 1300px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+.slider .buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.slider .buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+.slider .dots{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.slider .dots li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.slider .dots li.active{
+    width: 30px;
+}
+@media screen and (max-width: 768px){
+    .slider{
+        height: 250px;
+    }
+}
   
