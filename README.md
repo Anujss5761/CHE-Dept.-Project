@@ -18,4 +18,6 @@
 10. Active all links in Home Page footer.
 
 30/11/2023
-1.
+1.Create Event Page.
+2.Create Notice Page.
+ 
