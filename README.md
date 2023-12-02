@@ -16,3 +16,6 @@
 8.Remove assistance and associate text in faculty section.
 9.Correct UI of alumni section.
 10. Active all links in Home Page footer.
+
+30/11/2023
+1.

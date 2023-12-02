@@ -1,1 +1,5 @@
 [1129/232323.491:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[1130/145607.640:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[1130/184635.071:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1130/222825.965:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1201/100303.473:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
