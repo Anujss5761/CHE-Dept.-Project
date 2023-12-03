@@ -2735,6 +2735,13 @@
   }
 
 
+  @media screen and (max-width:900px) {
+    .icont4s2 {
+        width: 95%;
+    }
+  }
+
+
 
   @media screen and (max-width:600px) {
       .icont1 {
@@ -3125,6 +3132,22 @@
 
   span {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  @media screen and (max-width:1080px) {
+    #eventssb1 {
+        font-size: 1rem;
+    }
+  }
+
+
+
+
+
+  @media screen and (max-width:900px) {
+    #eventssb1 {
+        font-size: 0.8rem;
+    }
   }
 
 

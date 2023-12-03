@@ -15,9 +15,20 @@
 7.Remove old ratio image and add new one.
 8.Remove assistance and associate text in faculty section.
 9.Correct UI of alumni section.
-10. Active all links in Home Page footer.
+10.Active all links in Home Page footer.
 
 30/11/2023
 1.Create Event Page.
 2.Create Notice Page.
- 
+
+
+02/12/2023
+1.Create Template in event page.
+2.Add Responsiveness.
+
+04/12/2023
+1.Check navigation bars 600px 900px 1200px.
+2.Correct navigation bar.
+3.Modified faculty page.
+4.Add new images in faculty page.
+5.Modified home page buttons.
