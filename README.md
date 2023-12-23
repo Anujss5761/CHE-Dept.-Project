@@ -32,3 +32,4 @@
 3.Modified faculty page.
 4.Add new images in faculty page.
 5.Modified home page buttons.
+6.Add git link in home page.
