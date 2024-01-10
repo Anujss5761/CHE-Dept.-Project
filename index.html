@@ -7,6 +7,7 @@
     <title>ChED Website</title>
     <link rel="shortcut icon" type="x-icon" href="images/b3.jpg">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style11.css">
     <link rel="stylesheet" href="animate.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -30,7 +31,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="faculty2.html">Faculty</a></li>
                 <li><a href="IIChEM.html">IIChE</a></li>
-                <li><a href="Labs.html" >Labs</a></li>
+                <li><a href="Labs.html">Labs</a></li>
                 <li><a href="contacts.html">Contact us</a></li>
             </ul>
             <label for="nav-toggle" class="icon-burger">
@@ -133,8 +134,9 @@
         <p class="aboutch">Chemical Engineering</p>
         <div class="CheEngg">
             <div class="cheEngg1">
-                <div  class="cheEnggs1wce">
-                    <img style="border-radius: 15px;" src="images/chemical-plant-transformed.png" height="100%" width="100%">
+                <div class="cheEnggs1wce">
+                    <img style="border-radius: 15px;" src="images/chemical-plant-transformed.png" height="100%"
+                        width="100%">
                 </div>
                 <div class="cheEnggs2wce">
                     <p class="chEngghead">What is Chemical Engineering?</p>
@@ -171,7 +173,9 @@
                     <!-- <a class="btnkm1" href=""> Know more</a> -->
                 </div>
                 <div class="cheEnggs2ice">
-                    <img style="border-radius: 15px;" src="images/closeup-industrial-pipelines-around-factor-sunny-day.jpg" height="100%" width="100%">
+                    <img style="border-radius: 15px;"
+                        src="images/closeup-industrial-pipelines-around-factor-sunny-day.jpg" height="100%"
+                        width="100%">
                 </div>
             </div>
             <div class="cheEngg3">
@@ -184,13 +188,48 @@
                 </div>
             </div>
             <div class="cheEngg4">
-                <div class="cheEnggs1">
-                    <img style="border-radius: 15px;" src="images/in-man.jpg" width="100%" height="100%">
+                <div class="cheEnggs1" >
+                    <div class="slider" style="height: 410px;">
+                        <div class="list">
+                            <div class="item" >
+                                <!-- <img src="img/1.jpg" alt=""> -->
+                                <img  src="images/in-man.jpg"  alt="" width="50%" height="50%" >
+                            </div>
+                            <div class="item">
+                                <!-- <img src="img/2.jpg" alt=""> -->
+                                <img src="iiche-img/psd1.png" alt="">
+                            </div>
+                            <div class="item">
+                                <!-- <img src="img/3.jpg" alt=""> -->
+                                <img src="images/CH-109 (4).jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/CH-207 (2).jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/CH-207 (4).jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="buttons" >
+                                    <button id="prev" style=" height: 0; " ></button>
+                                    <button id="next" style=" height: 0; " ></button>
+                        </div>
+                        <ul class="dots" style=" height: 0; ">
+                            <li class="active"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+
+                    <script src="app.js"></script>
+                    <!-- <img style="border-radius: 15px;" src="images/in-man.jpg" width="100%" height="100%"> -->
                 </div>
                 <div class="cheEnggs2">
                     <div class="item1">
                         <div class="items1">
-                            <div class="itemss1">8  <span id="per">%</span> </div>
+                            <div class="itemss1">8 <span id="per">%</span> </div>
                             <div class="itemss2">
                                 <a class="linkedin"
                                     href="https://www.linkedin.com/pulse/need-chemical-engineers-future-muhammad-ibrahim-aslam/?utm_source=share&utm_medium=member_android&utm_campaign=share_via"
@@ -560,7 +599,7 @@
                         <a href="http://www.mmmut.ac.in/CE-FundedProjects" rel="noopener noreferrer">Projects</a>
                     </li>
                     <li>
-                        <a href="contacts.html"rel="noopener noreferrer">Contact Us</a>
+                        <a href="contacts.html" rel="noopener noreferrer">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -574,7 +613,7 @@
                         <a href="IIChEM.html" rel="noopener noreferrer">IIChE MMMUT</a>
                     </li>
                     <li>
-                        <a href="Working.html"  rel="noopener noreferrer">Sports</a>
+                        <a href="Working.html" rel="noopener noreferrer">Sports</a>
                     </li>
                     <li>
                         <a href="Working.html" rel="noopener noreferrer">Suggestions</a>
@@ -630,8 +669,8 @@
     <script>
         var loader = document.getElementById("preloader");
 
-        window.addEventListener("load" , function(){
-           loader.style.display = "none";
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
         })
     </script>
     <!-- https://github.com/Anujss5761/CHE-Dept.-Project.git -->
