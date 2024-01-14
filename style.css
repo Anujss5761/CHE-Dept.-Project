@@ -10,6 +10,7 @@
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
+      scroll-behavior: smooth;
       font-family: "Poppins", sans-serif;
       /* background-color: rgb(210, 231, 238); */
   }
@@ -24,6 +25,7 @@
       place-items: center;
       text-align: center;
       background-color: #e9fdfa;
+      scroll-behavior: smooth;
   }
 
 
@@ -2837,7 +2839,7 @@
 
   .icont1 {
       width: 98vw;
-      height: 152px;
+      height: 160px;
       flex-shrink: 0;
       background-color: #fff;
       border: 2px solid #D9D9D9;
@@ -2868,12 +2870,38 @@
       place-items: center;
   }
 
+  .icont2s{
+    width: 70vw;
+  }
+
+  .icont1s,
+  .icont3s {
+    width: 100%;
+  }
+
+
 
 
   #iichestu {
-      font-size: 2rem;
+      font-size: 1.2rem;
       font-weight: 600;
+      font-family: "Poppins", sans-serif;
   }
+
+  #iichestu-h {
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+#iichestu-iche {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#iichestu-o {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
 
   .icont1,
   .icont2,
@@ -3010,7 +3038,7 @@
 
   @media screen and (max-width:600px) {
       .icont1 {
-          height: 100px;
+          height: 90px;
       }
 
       .icont2 {
@@ -3090,6 +3118,44 @@
       .icont5 {
           border-radius: 0;
       }
+
+      .icont2s{
+        width: 70vw;
+      }
+    
+      .icont1s,
+      .icont3s {
+        width: 100%;
+      }
+
+      #iichestu {
+          font-size: .48rem;
+          font-weight: 600;
+          font-family: "Poppins", sans-serif;
+      }
+    
+      #iichestu-h {
+        font-size: .3rem;
+        font-weight: 600;
+    }
+    
+    #iichestu-iche {
+        font-size: .8rem;
+        font-weight: 600;
+    }
+    
+    #iichestu-o {
+        font-size: .45rem;
+        font-weight: 600;
+    }
+    #iichel{
+        width: 85%;
+        height: 70%;
+    }
+    #mmmutl{
+        width: 75%;
+        height: 60%;
+    }
   }
 
   /* -----------Slider-------- */
