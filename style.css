@@ -3625,3 +3625,17 @@
 .st-text:hover{
     color: green;
 }
+
+
+
+
+/* -------------IIchE Event Section-------------------- */
+
+.iich-evnts-cont{
+    width: 98vw;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+

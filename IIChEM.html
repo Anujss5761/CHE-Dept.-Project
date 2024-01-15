@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +11,14 @@
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <style>
         @media screen and (max-width:600px) {
-            .h-screen{
+            .h-screen {
                 width: 220px;
             }
         }
     </style>
 
 </head>
+
 <body>
     <div id="preloader"></div>
     <section>
@@ -26,8 +28,8 @@
             <ul class="links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="faculty2.html">Faculty</a></li>
-                <li><a href="Labs.html" >Labs</a></li>
-                <li><a href="http://www.mmmut.ac.in/CE-FundedProjects" >Projects</a></li>
+                <li><a href="Labs.html">Labs</a></li>
+                <li><a href="http://www.mmmut.ac.in/CE-FundedProjects">Projects</a></li>
                 <li><a href="contacts.html">Contact us</a></li>
             </ul>
             <label for="nav-toggle" class="icon-burger">
@@ -46,7 +48,7 @@
         <div class="icont1">
             <div class="icont1s">
                 <img id="mmmutl" src="images/mmmut logo (1).png" height="80%" width="80%">
-                
+
             </div>
             <div class="icont2s">
                 <p id="iichestu">Madan Mohan Malviya University Of Technology, Gorakhpur (U.P.) India</p>
@@ -83,8 +85,9 @@
                     </div>
                 </div>
                 <div class="buttons">
-                    <button id="prev"><</button>
-                    <button id="next">></button>
+                    <button id="prev">
+                        << /button>
+                            <button id="next">></button>
                 </div>
                 <ul class="dots">
                     <li class="active"></li>
@@ -94,45 +97,45 @@
                     <li></li>
                 </ul>
             </div>
-        
-            <script src="app.js"></script>
-          </div>
 
-          <!-- Dots Navigation -->
-          <div
-            class="absolute bottom-0 left-0 right-0 flex justify-center space-x-2 p-4"
-          >
-            <template x-for="slideIndex in slideCount" :key="slideIndex">
-              <button
-                @click="activeSlide = slideIndex"
-                class="h-2 w-2 rounded-full"
-                :class="{'bg-orange-500': activeSlide === slideIndex, 'bg-white/50': activeSlide !== slideIndex}"
-              ></button>
-            </template>
-          </div>
+            <script src="app.js"></script>
         </div>
-      </div>
-</div>
+
+        <!-- Dots Navigation -->
+        <div class="absolute bottom-0 left-0 right-0 flex justify-center space-x-2 p-4">
+            <template x-for="slideIndex in slideCount" :key="slideIndex">
+                <button @click="activeSlide = slideIndex" class="h-2 w-2 rounded-full"
+                    :class="{'bg-orange-500': activeSlide === slideIndex, 'bg-white/50': activeSlide !== slideIndex}"></button>
+            </template>
+        </div>
+        </div>
+        </div>
+        </div>
     </section>
     <section>
         <div class="icont3">
-             <a href="Enents.html"  class="icont1si">Events</a>
-             <a href="https://drive.google.com/file/d/18C_u2EH4XOm3J24mn4nqLEK0HqKSmPR7/view?usp=sharing" class="icont2si">Working Committee Members</a>
-             <a href="https://drive.google.com/file/d/19W9S1jbTOpYJdYUJRI6095nOl3PQZm6J/view?usp=sharing"  class="icont3si">Executive Members</a>
-             <a href="nodata.html"  class="icont4si">Newsletters</a>
-             <a href="Notice.html"  class="icont5si">Notice</a>
-             <a href="contacts.html"  class="icont6si">Contact Us</a>
+            <a href="Enents.html" class="icont1si">Events</a>
+            <a href="https://drive.google.com/file/d/18C_u2EH4XOm3J24mn4nqLEK0HqKSmPR7/view?usp=sharing"
+                class="icont2si">Working Committee Members</a>
+            <a href="https://drive.google.com/file/d/19W9S1jbTOpYJdYUJRI6095nOl3PQZm6J/view?usp=sharing"
+                class="icont3si">Executive Members</a>
+            <a href="nodata.html" class="icont4si">Newsletters</a>
+            <a href="Notice.html" class="icont5si">Notice</a>
+            <a href="contacts.html" class="icont6si">Contact Us</a>
         </div>
     </section>
-    <section>
+    <!-- <section>
         <p class="aboutch">IIChE Events</p>
         <div class="icont4">
             <div class="icont4s1">
                 <img src="images/talk-expert.jpg" height="100%" width="100%">
             </div>
             <div class="icont4s2">
-                <p id="Topic"> Expert  <span id="talk">Talk</span>  </p>
-                <p id="text">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ipsum soluta nihil earum est, eum itaque quam atque eveniet amet voluptatibus ab totam illo quia iste nulla harum numquam quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, id? Nostrum neque enim laborum assumenda? Asperiores ex ea accusamus quo possimus Laborum, soluta quae.
+                <p id="Topic"> Expert <span id="talk">Talk</span> </p>
+                <p id="text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ipsum soluta nihil
+                    earum est, eum itaque quam atque eveniet amet voluptatibus ab totam illo quia iste nulla harum
+                    numquam quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, id? Nostrum neque enim
+                    laborum assumenda? Asperiores ex ea accusamus quo possimus Laborum, soluta quae.
                 </p>
                 <p id="click"> Click </p>
             </div>
@@ -141,11 +144,15 @@
     <section>
         <div class="icont4">
             <div class="icont4s1">
-                <img src="images/camera-photographic-with-smartphone-devices-generative-ai.jpg" height="100%" width="100%">
+                <img src="images/camera-photographic-with-smartphone-devices-generative-ai.jpg" height="100%"
+                    width="100%">
             </div>
             <div class="icont4s2">
-                <p id="Topic"> Chemisch’ <span id="talk">Graphy</span>  </p>
-                <p id="text">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ipsum soluta nihil earum est, eum itaque quam atque eveniet amet voluptatibus ab totam illo quia iste nulla harum numquam quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, id? Nostrum neque enim laborum assumenda? Asperiores ex ea accusamus quo possimus Laborum, soluta quae.
+                <p id="Topic"> Chemisch’ <span id="talk">Graphy</span> </p>
+                <p id="text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ipsum soluta nihil
+                    earum est, eum itaque quam atque eveniet amet voluptatibus ab totam illo quia iste nulla harum
+                    numquam quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, id? Nostrum neque enim
+                    laborum assumenda? Asperiores ex ea accusamus quo possimus Laborum, soluta quae.
                 </p>
                 <p id="click"> Click </p>
             </div>
@@ -157,111 +164,328 @@
                 <img src="images/mind-de-buzzle.jpg" height="100%" width="100%">
             </div>
             <div class="icont4s2">
-                <p id="Topic"> Mind-be- <span id="talk">Dazzle</span>  </p>
-                <p id="text">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ipsum soluta nihil earum est, eum itaque quam atque eveniet amet voluptatibus ab totam illo quia iste nulla harum numquam quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, id? Nostrum neque enim laborum assumenda? Asperiores ex ea accusamus quo possimus Laborum, soluta quae.
+                <p id="Topic"> Mind-be- <span id="talk">Dazzle</span> </p>
+                <p id="text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ipsum soluta nihil
+                    earum est, eum itaque quam atque eveniet amet voluptatibus ab totam illo quia iste nulla harum
+                    numquam quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, id? Nostrum neque enim
+                    laborum assumenda? Asperiores ex ea accusamus quo possimus Laborum, soluta quae.
                 </p>
                 <p id="click"> Click </p>
             </div>
         </div>
-    </section>
+    </section> -->
     <section>
-        <p class="aboutch">Executive Members</p>
-        <div class="icont5">
-            <div class="icont5s1">
-                <p class="ex-name-1">Mr.Shashank P. Baranwal</p>
-                <p class="ex-position">Secretory</p>
-                <p class="ex-branch">Final Year</p>
+        <!-- <p class="aboutch">IIChE Events</p> -->
+        <div class="CheEngg">
+            <div class="cheEngg1">
+                <!-- <div class="cheEnggs1wce">
+                    <img style="border-radius: 15px;" src="images/chemical-plant-transformed.png" height="100%"
+                        width="100%">
+                </div> -->
+                <div class="cheEnggs2wce" style="width: 100%;">
+                    <!-- <p class="chEngghead">Chemical Engineering</p> -->
+                    <p id="Topic" class="chEngghead"> Chemisch' <span id="talk">Graphy</span> </p>
+                    <!-- <p id="Topic" class="chEngghead"> Mind-be- <span id="talk">Dazzle</span> </p> -->
+                    <p class="chEnggtext">
+                        Chemical engineering is a fascinating field that touches almost every aspect of our lives! It's
+                        all about the design, development, and improvement of processes that transform raw materials
+                        into valuable products. Think of everything from the gasoline in your car to the medicine in
+                        your cabinet, the clothes you wear, and even the food you eat – all have likely been touched by
+                        the hands of a chemical engineer. Chemical engineers translate processes developed in the lab
+                        into practical applications for the
+                        commercial production of products, and then work to maintain and improve those processes. They
+                        rely on the main foundations of engineering: math, physics, and chemistry. Biology also plays an
+                        increasingly important role.
+                    </p>
+                    <br>
+                    <!-- <a class="btnkm" href=""> Know more</a> -->
+                </div>
             </div>
-            <div class="icont5s2">
-                <p class="ex-name">Mr. Harsh Sharma</p>
-                <p class="ex-position">Joint Secretory</p>
-                <p class="ex-branch">Third Year</p>
+            <div class="cheEngg1">
+                <div class="cheEnggs1wce">
+                    <img style="border-radius: 15px;" src="images/chemical-plant-transformed.png" height="100%"
+                        width="100%">
+                </div>
+                <div class="cheEnggs2wce">
+                    <!-- <p class="chEngghead">Chemical Engineering</p> -->
+                    <p id="Topic" class="chEngghead"> Expert <span id="talk">Talk</span> </p>
+                    <p class="chEnggtext">
+                        Chemical engineering is a fascinating field that touches almost every aspect of our lives! It's
+                        all about the design, development, and improvement of processes that transform raw materials
+                        into valuable products. Think of everything from the gasoline in your car to the medicine in
+                        your cabinet, the clothes you wear, and even the food you eat – all have likely been touched by
+                        the hands of a chemical engineer. Chemical engineers translate processes developed in the lab
+                        into practical applications for the
+                        commercial production of products, and then work to maintain and improve those processes. They
+                        rely on the main foundations of engineering: math, physics, and chemistry. Biology also plays an
+                        increasingly important role.
+                    </p>
+                    <br>
+                    <!-- <a class="btnkm" href=""> Know more</a> -->
+                </div>
             </div>
-            <div class="icont5s3">
-                <p class="ex-name">Ms. Alpana Chaurasiya</p>
-                <p class="ex-position">Treasurer</p>
-                <p class="ex-branch">Third Year</p>
-            </div>
-            <div class="icont5s4">
-                <p class="ex-name">Ms. Mahi Ojha</p>
-                <p class="ex-position">Executive Member</p>
-                <p class="ex-branch">Second Year</p>
-            </div>
-            <div class="icont5s5">
-                <p class="ex-name">Mr. Anuj Kashyap</p>
-                <p class="ex-position">Executive Member</p>
-                <p class="ex-branch">Second Year</p>
-            </div>
-            <div class="icont5s6">
-                <p class="ex-name">Mr. Jamal Asif</p>
-                <p class="ex-position">Executive Member</p>
-                <p class="ex-branch">Second Year</p>
-            </div>
-            <div class="icont5s7">
-                <p class="ex-name">Ms. Kajal Singh</p>
-                <p class="ex-position">Executive Member</p>
-                <p class="ex-branch">Second Year</p>
-            </div>
-            <div class="icont5s8">
-                <p class="ex-name">Mr. Raju Kr. Yadav</p>
-                <p class="ex-position">Executive Member</p>
-                <p class="ex-branch">Second Year</p>
+            <div class="cheEngg1">
+                <!-- <div class="cheEnggs1wce">
+                    <img style="border-radius: 15px;" src="images/chemical-plant-transformed.png" height="100%"
+                        width="100%">
+                </div> -->
+                <div class="cheEnggs2wce" style="width: 100%;">
+                    <!-- <p class="chEngghead">Chemical Engineering</p> -->
+                    <p id="Topic" class="chEngghead"> Chemisch' <span id="talk">Graphy</span> </p>
+                    <!-- <p id="Topic" class="chEngghead"> Mind-be- <span id="talk">Dazzle</span> </p> -->
+                    <p class="chEnggtext">
+                        Chemical engineering is a fascinating field that touches almost every aspect of our lives! It's
+                        all about the design, development, and improvement of processes that transform raw materials
+                        into valuable products. Think of everything from the gasoline in your car to the medicine in
+                        your cabinet, the clothes you wear, and even the food you eat – all have likely been touched by
+                        the hands of a chemical engineer. Chemical engineers translate processes developed in the lab
+                        into practical applications for the
+                        commercial production of products, and then work to maintain and improve those processes. They
+                        rely on the main foundations of engineering: math, physics, and chemistry. Biology also plays an
+                        increasingly important role.
+                    </p>
+                    <br>
+                    <!-- <a class="btnkm" href=""> Know more</a> -->
+                </div>
             </div>
             
         </div>
     </section>
-    <footer>
-        <div class="footer">
-            <div class="mmmut-logo">
-                <img src="mmmut logo (1).png" width="100%" height="100%">
+    <!-- <section>
+        <div class="iich-evnts-cont">
+            <div class="iiche-events-conts">1</div>
+            <div class="iiche-events-conts">2</div>
+        </div>
+    </section> -->
+    <section>
+        <p class="aboutch">IIChE Events</p>
+        <div class="CheEngg">
+            <div class="cheEngg1">
+                <div class="cheEnggs1wce">
+                    <img style="border-radius: 15px;" src="images/chemical-plant-transformed.png" height="100%"
+                        width="100%">
+                </div>
+                <div class="cheEnggs2wce">
+                    <!-- <p class="chEngghead">Chemical Engineering</p> -->
+                    <p id="Topic" class="chEngghead"> Chemisch' <span id="talk">Graphy</span> </p>
+                    <!-- <p id="Topic" class="chEngghead"> Mind-be- <span id="talk">Dazzle</span> </p> -->
+                    <p class="chEnggtext">
+                        Chemical engineering is a fascinating field that touches almost every aspect of our lives! It's
+                        all about the design, development, and improvement of processes that transform raw materials
+                        into valuable products. Think of everything from the gasoline in your car to the medicine in
+                        your cabinet, the clothes you wear, and even the food you eat – all have likely been touched by
+                        the hands of a chemical engineer. Chemical engineers translate processes developed in the lab
+                        into practical applications for the
+                        commercial production of products, and then work to maintain and improve those processes. They
+                        rely on the main foundations of engineering: math, physics, and chemistry. Biology also plays an
+                        increasingly important role.
+                    </p>
+                    <br>
+                    <!-- <a class="btnkm" href=""> Know more</a> -->
+                </div>
             </div>
-            <div class="link">
-                <ul>
-                    <li>
-                        <a href="index.html"  rel="noopener noreferrer">Home</a>
-                    </li>
-                    <li>
-                        <a href="faculty2.html"  rel="noopener noreferrer">Faculty</a>
-                    </li>
-                    <li>
-                        <a href="Labs.html"  rel="noopener noreferrer">Labs</a>
-                    </li>
-                    <li>
-                        <a href="http://www.mmmut.ac.in/CE-FundedProjects" rel="noopener noreferrer">Projects</a>
-                    </li>
-                    <li>
-                        <a href="contacts.html" rel="noopener noreferrer">Contact Us</a>
-                    </li>
-                </ul>
+            <div class="cheEngg1">
+                <div class="cheEnggs1wce">
+                    <img style="border-radius: 15px;" src="images/chemical-plant-transformed.png" height="100%"
+                        width="100%">
+                </div>
+                <div class="cheEnggs2wce">
+                    <!-- <p class="chEngghead">Chemical Engineering</p> -->
+                    <p id="Topic" class="chEngghead"> Expert <span id="talk">Talk</span> </p>
+                    <p class="chEnggtext">
+                        Chemical engineering is a fascinating field that touches almost every aspect of our lives! It's
+                        all about the design, development, and improvement of processes that transform raw materials
+                        into valuable products. Think of everything from the gasoline in your car to the medicine in
+                        your cabinet, the clothes you wear, and even the food you eat – all have likely been touched by
+                        the hands of a chemical engineer. Chemical engineers translate processes developed in the lab
+                        into practical applications for the
+                        commercial production of products, and then work to maintain and improve those processes. They
+                        rely on the main foundations of engineering: math, physics, and chemistry. Biology also plays an
+                        increasingly important role.
+                    </p>
+                    <br>
+                    <!-- <a class="btnkm" href=""> Know more</a> -->
+                </div>
             </div>
-            <div class="other-link">
-                <ul>
-                    <li><a href="http://www.mmmut.ac.in/ChemicalActivity" rel="noopener noreferrer">IIChE MMMUT</a></li>
-                    <li><a href="https://www.iiche.org.in/" target="_blank"
-                            rel="noopener noreferrer">IIChE Official Website</a></li>
-                    <li>
-                        <a href="https://www.instagram.com/iiche.mmmut/" rel="noopener noreferrer">Instagram</a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/iiche.mmmut/" rel="noopener noreferrer">Facebook</a>
-                    </li>
-                    <li>
-                        <a href="Working.html" rel="noopener noreferrer">Link</a>
-                    </li>
-                </ul>
+            <div class="cheEngg1">
+                <div class="cheEnggs1wce">
+                    <img style="border-radius: 15px;" src="images/chemical-plant-transformed.png" height="100%"
+                    width="100%">
+                </div>
+                <div class="cheEnggs2wce">
+                    <!-- <p class="chEngghead">Chemical Engineering</p> -->
+                    <!-- <p id="Topic" class="chEngghead"> Chemisch' <span id="talk">Graphy</span> </p> -->
+                    <p id="Topic" class="chEngghead"> Mind-be- <span id="talk">Dazzle</span> </p>
+                    <p class="chEnggtext">
+                        Chemical engineering is a fascinating field that touches almost every aspect of our lives! It's
+                        all about the design, development, and improvement of processes that transform raw materials
+                        into valuable products. Think of everything from the gasoline in your car to the medicine in
+                        your cabinet, the clothes you wear, and even the food you eat – all have likely been touched by
+                        the hands of a chemical engineer. Chemical engineers translate processes developed in the lab
+                        into practical applications for the
+                        commercial production of products, and then work to maintain and improve those processes. They
+                        rely on the main foundations of engineering: math, physics, and chemistry. Biology also plays an
+                        increasingly important role.
+                    </p>
+                    <br>
+                    <!-- <a class="btnkm" href=""> Know more</a> -->
+                </div>
             </div>
-            <div class="ched-contact">
-                Chemical Engineering Department <br>
-                Malviya Campus, Gorakhpur - Deoria Rd, <br>
-                Shrawan Nagar, Singhariya, <br>
-                Kunraghat, Gorakhpur - Uttar Pradesh <br>
-                273202
-            </div>
-            <div class="version">
-                Version
+          
+            <div class="cheEngg4">
+                <div class="cheEnggs2">
+                    <div class="item1">
+                        <div class="items1">
+                            <div class="itemss1">8 <span id="per">%</span> </div>
+                            <div class="itemss2">
+                                <a class="linkedin"
+                                    href="https://www.linkedin.com/pulse/need-chemical-engineers-future-muhammad-ibrahim-aslam/?utm_source=share&utm_medium=member_android&utm_campaign=share_via"
+                                    target="_blank" rel="noopener noreferrer">According to the Bureau of Labor
+                                    Statistics, the demand for chemical engineers is expected to grow by 8% from 2020 to
+                                    2030, faster than the average for all occupations.</a>
+                            </div>
+                        </div>
+                        <div class="items2">
+                            <div class="itemss135">35 <span id="per">%</span></div>
+                            <div class="itemss2">
+                                <a class="linkedin"
+                                    href="https://engineering.purdue.edu/MIDFIELD/assets/files/2015%20Brawner%2C%20Lord%2C%20Layton%2C%20Ohland%2C%20Long.pdf"
+                                    target="_blank" rel="noopener noreferrer">Chemical Engineering is considered a
+                                    pocket of success amongst its sister disciplines due to its comparatively higher
+                                    level of female participation.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item2">
+                        <div class="items1">
+                            <div class="itemss1">X <span id="per">%</span></div>
+                            <div class="itemss2">
+                                <a class="linkedin"
+                                    href="https://engineering.purdue.edu/MIDFIELD/assets/files/2015%20Brawner%2C%20Lord%2C%20Layton%2C%20Ohland%2C%20Long.pdf"
+                                    target="_blank" rel="noopener noreferrer">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Omnis qui ad, quia reprehenderit voluptates expedita quam suscipit
+                                    provident vel consequatur iusto libero obcaecati</a>
+                            </div>
+                        </div>
+                        <div class="items2">
+                            <div class="itemss1">00</div>
+                            <div class="itemss2">
+                                <a class="linkedin"
+                                    href="https://www.linkedin.com/pulse/need-chemical-engineers-future-muhammad-ibrahim-aslam/?utm_source=share&utm_medium=member_android&utm_campaign=share_via"
+                                    target="_blank" rel="noopener noreferrer">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Laudantium nihil porro fuga iste, rem, quia ipsum ex
+                                    necessitatibus recusandae, adipisci</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cheEnggs2">
+                    <div class="item1">
+                        <div class="items1">
+                            <div class="itemss1">8 <span id="per">%</span> </div>
+                            <div class="itemss2">
+                                <a class="linkedin"
+                                    href="https://www.linkedin.com/pulse/need-chemical-engineers-future-muhammad-ibrahim-aslam/?utm_source=share&utm_medium=member_android&utm_campaign=share_via"
+                                    target="_blank" rel="noopener noreferrer">According to the Bureau of Labor
+                                    Statistics, the demand for chemical engineers is expected to grow by 8% from 2020 to
+                                    2030, faster than the average for all occupations.</a>
+                            </div>
+                        </div>
+                        <div class="items2">
+                            <div class="itemss135">35 <span id="per">%</span></div>
+                            <div class="itemss2">
+                                <a class="linkedin"
+                                    href="https://engineering.purdue.edu/MIDFIELD/assets/files/2015%20Brawner%2C%20Lord%2C%20Layton%2C%20Ohland%2C%20Long.pdf"
+                                    target="_blank" rel="noopener noreferrer">Chemical Engineering is considered a
+                                    pocket of success amongst its sister disciplines due to its comparatively higher
+                                    level of female participation.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item2">
+                        <div class="items1">
+                            <div class="itemss1">X <span id="per">%</span></div>
+                            <div class="itemss2">
+                                <a class="linkedin"
+                                    href="https://engineering.purdue.edu/MIDFIELD/assets/files/2015%20Brawner%2C%20Lord%2C%20Layton%2C%20Ohland%2C%20Long.pdf"
+                                    target="_blank" rel="noopener noreferrer">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Omnis qui ad, quia reprehenderit voluptates expedita quam suscipit
+                                    provident vel consequatur iusto libero obcaecati</a>
+                            </div>
+                        </div>
+                        <div class="items2">
+                            <div class="itemss1">00</div>
+                            <div class="itemss2">
+                                <a class="linkedin"
+                                    href="https://www.linkedin.com/pulse/need-chemical-engineers-future-muhammad-ibrahim-aslam/?utm_source=share&utm_medium=member_android&utm_campaign=share_via"
+                                    target="_blank" rel="noopener noreferrer">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Laudantium nihil porro fuga iste, rem, quia ipsum ex
+                                    necessitatibus recusandae, adipisci</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </footer>
+    </section>
+  
+
+                    <footer>
+                        <div class="footer">
+                            <div class="mmmut-logo">
+                                <img src="mmmut logo (1).png" width="100%" height="100%">
+                            </div>
+                            <div class="link">
+                                <ul>
+                                    <li>
+                                        <a href="index.html" rel="noopener noreferrer">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="faculty2.html" rel="noopener noreferrer">Faculty</a>
+                                    </li>
+                                    <li>
+                                        <a href="Labs.html" rel="noopener noreferrer">Labs</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.mmmut.ac.in/CE-FundedProjects"
+                                            rel="noopener noreferrer">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="contacts.html" rel="noopener noreferrer">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="other-link">
+                                <ul>
+                                    <li><a href="http://www.mmmut.ac.in/ChemicalActivity"
+                                            rel="noopener noreferrer">IIChE MMMUT</a></li>
+                                    <li><a href="https://www.iiche.org.in/" target="_blank"
+                                            rel="noopener noreferrer">IIChE Official Website</a></li>
+                                    <li>
+                                        <a href="https://www.instagram.com/iiche.mmmut/"
+                                            rel="noopener noreferrer">Instagram</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/iiche.mmmut/"
+                                            rel="noopener noreferrer">Facebook</a>
+                                    </li>
+                                    <li>
+                                        <a href="Working.html" rel="noopener noreferrer">Link</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="ched-contact">
+                                Chemical Engineering Department <br>
+                                Malviya Campus, Gorakhpur - Deoria Rd, <br>
+                                Shrawan Nagar, Singhariya, <br>
+                                Kunraghat, Gorakhpur - Uttar Pradesh <br>
+                                273202
+                            </div>
+                            <div class="version">
+                                Version
+                            </div>
+                        </div>
+                    </footer>
 
 
 
@@ -297,12 +521,13 @@
 
 
 
-    <script>
-        var loader = document.getElementById("preloader");
+                    <script>
+                        var loader = document.getElementById("preloader");
 
-        window.addEventListener("load" , function(){
-           loader.style.display = "none";
-        })
-    </script>
+                        window.addEventListener("load", function () {
+                            loader.style.display = "none";
+                        })
+                    </script>
 </body>
+
 </html>
