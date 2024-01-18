@@ -3779,7 +3779,15 @@
     /* .study-cont1{
         height: 38%;
     } */
+
+    #student-page{
+        justify-content: flex-start;
+    }
 }
+
+/* #student-page{
+    justify-content: flex-start;
+} */
 
 
 
