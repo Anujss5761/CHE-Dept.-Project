@@ -90,7 +90,8 @@
                     </div>
                 </div>
                 <div class="buttons">
-                    <button id="prev"><</button>
+                    <button id="prev">
+                        << /button>
                             <button id="next">></button>
                 </div>
                 <ul class="dots">
@@ -150,18 +151,19 @@
             </div>
         </div>
     </section>
-    <!-- <section>
+    <section>
         <div class="CheEngg" id="cheEngg4-1">
             <div class="cheEngg1">
                 <div class="cheEnggs2wce" style="width: 100%;">
+                    <div class="wrapper">
+                        <button class="confetti-button">Click Me</button>
 
 
-
-
+                    </div>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     <section>
         <div class="CheEngg" id="cheEngg4-1-2">
             <div class="cheEngg1" id="cheEngg1">
@@ -246,8 +248,7 @@
         <div class="CheEngg" id="cheEngg4">
             <div class="cheEngg1">
                 <div class="cheEnggs1wce">
-                    <img style="border-radius: 6px;" src="iiche-img/Chemischgraohy.png" height="100%"
-                        width="100%">
+                    <img style="border-radius: 6px;" src="iiche-img/Chemischgraohy.png" height="100%" width="100%">
                 </div>
                 <div class="cheEnggs2wce">
                     <p class="chEngghead">Chemisch' <span id="talk">Graphy</span></p>
@@ -290,8 +291,7 @@
         <div class="CheEngg" id="cheEngg4">
             <div class="cheEngg1">
                 <div class="cheEnggs1wce">
-                    <img style="border-radius: 15px;" src="iiche-img/minddedeazzle.jpg" height="100%"
-                        width="100%">
+                    <img style="border-radius: 15px;" src="iiche-img/minddedeazzle.jpg" height="100%" width="100%">
                 </div>
                 <div class="cheEnggs2wce">
                     <p class="chEngghead">Mind De <span id="talk">Dazzle</span></p>
@@ -462,6 +462,29 @@
 
 
 
+    <script src="Javascript.js"></script>
+
+    <script>
+        // Confetti
+        const confettiBtn = document.querySelector(".confetti-button");
+
+        confettiBtn.addEventListener("Click", () => {
+            const canvas = document.createElement("canvas");
+            const container = document.querySelector(".wrapper");
+
+            // set dimension for canvas
+            canvas.width = 600;
+            canvas.height = 600;
+
+            container.appendChild(canvas);
+
+            // create confetti inside the canvas
+            const confetti_btn = confetti.create(canvas);
+
+            // remove the canvas after spreading confetti
+            confetti_btn.then(() => canvas.remove());
+        });
+    </script>
 
     <script>
         var loader = document.getElementById("preloader");
