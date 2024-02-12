@@ -994,6 +994,11 @@
         width: 0;
     }
 
+    #deprt-msg{
+        height: 200px;
+        width: 50%;
+    }
+
   }
 
   @media screen and (max-width: 600px) {
@@ -2245,6 +2250,10 @@
     padding-left: 3%;
   }
 
+  #cheEnggs2-w{
+    height: 380px;
+  }
+
   #iiche-img-events{
     background-image: url(IIChe-Images-for-slider/m2.jpg);
     background-position: cover;
@@ -2258,7 +2267,7 @@
           flex-direction: column;
           justify-content: space-around;
           align-items: center;
-          height: 1600px;
+          height: 1100px;
           overflow: hidden;
           width: 100%;
       }
@@ -2286,6 +2295,10 @@
           margin: 5px 0 5px 0;
           overflow: hidden;
       }
+
+      /* #cheEnggs2-w{
+        height: 380px;
+      } */
 
       .cheEngg1 {
           /* width: 100%; */
@@ -2364,7 +2377,7 @@
       .cheEnggs2wce {
           color: black;
           width: 99%;
-          height: 270px;
+          height: 300px;
           /* height: 0px; */
           /* background-color: green;   */
           overflow: hidden;
@@ -2443,12 +2456,13 @@
 
       .item1,
       .item2 {
-          height: 48%;
+          height: 130px;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
           width: 100%;
+          margin-bottom: 5px;
       }
 
       .items1,
@@ -2479,6 +2493,10 @@
       #items2-iiche{
         width: 98%;
         padding-left: 3%;
+      }
+
+      #cheEnggs2-we{
+        height: 250px;
       }
 
 
@@ -4024,3 +4042,107 @@
     transform: translate(-50%, -50%);
     pointer-events: none;
 }
+
+
+/* .......................Winners............................................ */
+
+
+
+#winners-cont{
+    display: grid;
+    place-items: center;
+    /* background-image: url(images/celebration.gif); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgba(16, 99, 224, 0.377);
+}
+.winners-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 97%;
+    /* border: 2px solid black; */
+    /* border-color: linear-gradiant(blue, red, yellow); */
+}
+
+.win-h,.win-s{
+    /* border: 2px solid black; */
+}
+
+.win-h,.win-s{
+    width: 90%;
+    height: 10%;
+    margin-top:2px ;
+}
+
+.win-s{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wp,.wentry,.wname,.wbranch{
+    width: 25%;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+
+}
+/* .wp{
+    background-color: blue;
+}
+.wentry{
+    background-color: rgb(0, 162, 255);
+}
+.wname{
+    background-color: rgb(174, 0, 255);
+}
+.wbranch{
+    background-color: rgb(58, 108, 207);
+} */
+
+#wphm{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#wph{
+    font-weight: 600;
+}
+
+
+@media screen and (max-width:600px) {
+    .winners-cont{
+        width: 100%;
+        height: 500px;
+        /* border: 2px solid black; */
+        /* border-color: linear-gradiant(blue, red, yellow); */
+    }
+
+    #winners-cont{
+        width: 98vw;
+        height: 700px;
+    }
+
+    .wp,.wentry,.wname,.wbranch{
+        font-size: 10px;
+    }
+}
+
+/* #cheEnggs2-we{
+    height: 180px;
+} */
+
+
+
+
+
+
+
+
+
+
+

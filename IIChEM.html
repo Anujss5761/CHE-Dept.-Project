@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style11.css">
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.js"></script>
     <style>
         @media screen and (max-width:600px) {
             .h-screen {
@@ -90,8 +91,7 @@
                     </div>
                 </div>
                 <div class="buttons">
-                    <button id="prev">
-                        << /button>
+                    <button id="prev"><</button>
                             <button id="next">></button>
                 </div>
                 <ul class="dots">
@@ -134,7 +134,7 @@
             <div class="cheEngg1">
                 <div class="cheEnggs2wce" style="width: 100%;">
                     <p class="chEngghead">About <span id="chEngghead"> IIChE MMMUT</span></p>
-                    <p class="chEnggtext">
+                    <p class="chEnggtext" >
                         Chemical engineering is a fascinating field that touches almost every aspect of our lives! It's
                         all about the design, development, and improvement of processes that transform raw materials
                         into valuable products. Think of everything from the gasoline in your car to the medicine in
@@ -153,10 +153,77 @@
     </section>
     <section>
         <div class="CheEngg" id="cheEngg4-1">
-            <div class="cheEngg1">
-                <div class="cheEnggs2wce" style="width: 100%;">
-                    <div class="wrapper">
-                        <button class="confetti-button">Click Me</button>
+            <div class="cheEngg1" >
+                <div class="cheEnggs2wce" style="width: 100%;" id="winners-cont">
+                    <div class="winners-cont">
+                        <div class="win-h" id="wphm"> &#x2728; Chemisch'Graphy 2024 Winners &#x2728;</div>
+                        <div class="win-s">
+                            <p class="wp" id="wph">Position</p>
+                            <p class="wentry" id="wph">Entry No.</p>
+                            <p class="wname" id="wph"> Name</p>
+                            <p class="wbranch" id="wph">Branch</p>
+                        </div>
+                        <div class="win-s">
+                            <p class="wp">&#127942; Winner</p>
+                            <p class="wentry">172</p>
+                            <p class="wname">Mehak Yadav</p>
+                            <p class="wbranch">ChE, 1st Year</p>
+                        </div>
+                        <div class="win-s">
+                            <p class="wp">&#129351; 1st Runner up</p>
+                            <p class="wentry">139</p>
+                            <p class="wname">Aditya Kumar</p>
+                            <p class="wbranch">ME, 1st Year</p>
+                        </div>
+                        <div class="win-s">
+                            <p class="wp">🥈 2nd Runner up</p>
+                            <p class="wentry">209</p>
+                            <p class="wname">Gaurav Prajapati</p>
+                            <p class="wbranch">ChE, 1st Year</p>
+                        </div>
+                        <div class="win-s">
+                            <p class="wp">🥉 3rd Runner up</p>
+                            <p class="wentry">223</p>
+                            <p class="wname">Shrestha Tiwari</p>
+                            <p class="wbranch">ME, 1st Year</p>
+                        </div>
+                        <div class="win-s">
+                            <p class="wp">4th</p>
+                            <p class="wentry">65</p>
+                            <p class="wname">Ayush Kumar</p>
+                            <p class="wbranch">ChE, 1st Year</p>
+                        </div>
+                        <div class="win-s">
+                            <p class="wp">5th</p>
+                            <p class="wentry">121</p>
+                            <p class="wname">Riya Verma</p>
+                            <p class="wbranch">CSE, 1st Year</p>
+                        </div>
+                        <div class="win-s">
+                            <p class="wp">6th</p>
+                            <p class="wentry">189</p>
+                            <p class="wname">Sanskriti Jaiswal</p>
+                            <p class="wbranch">BBA, 1st Year</p>
+                        </div>
+                        <div class="win-s">
+                            <p class="wp">7th</p>
+                            <p class="wentry">27</p>
+                            <p class="wname">Harsh Yadav</p>
+                            <p class="wbranch">CE, 1st Year</p>
+                        </div>
+                        <div class="win-s">
+                            <p class="wp">8th</p>
+                            <p class="wentry">20</p>
+                            <p class="wname">Piyush Verma</p>
+                            <p class="wbranch">ChE, 1st Year</p>
+                        </div>
+                        <div class="win-s">
+                            <p class="wp">9th</p>
+                            <p class="wentry">213</p>
+                            <p class="wname">Sachin Kumar</p>
+                            <p class="wbranch">ChE, 1st Year</p>
+                        </div>
+                       
                     </div>
                 </div>
             </div>
@@ -243,7 +310,7 @@
     </section>
     <section>
         <p class="aboutch">IIChE Events</p>
-        <div class="CheEngg" id="cheEngg4">
+        <div class="CheEngg" id="cheEngg4" >
             <div class="cheEngg1">
                 <div class="cheEnggs1wce">
                     <img style="border-radius: 6px;" src="iiche-img/Chemischgraohy.png" height="100%" width="100%">
@@ -459,6 +526,7 @@
             loader.style.display = "none";
         })
     </script>
+    <script src="confetti.js"></script>
 </body>
 
 </html>
